@@ -1,0 +1,18 @@
+/* line 1, ../scss/_scaffolding.scss */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #999999;
+  background-color: white;
+}
+
+/* line 9, ../scss/_scaffolding.scss */
+a {
+  color: #999999;
+}
+/* line 13, ../scss/_scaffolding.scss */
+a:hover, a:focus {
+  color: #999999;
+  text-decoration: none;
+}
