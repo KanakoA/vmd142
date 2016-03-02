@@ -1,91 +1,334 @@
-/*
-Syntax error: Invalid CSS after "...ext-transform: ": expected expression (e.g. 1px, bold), was "; // refer to PNG"
-        on line 35 of /Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss
-        from line 4 of /Users/Daifuku/Documents/vmd142/quick/scss/style.scss
+/* line 1, /Users/Daifuku/Documents/vmd142/quick/scss/_scaffolding.scss */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: white;
+}
 
-Backtrace:
-/Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss:35
-/Users/Daifuku/Documents/vmd142/quick/scss/style.scss:4
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:1129:in `expected'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/lexer.rb:199:in `expected!'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/parser.rb:471:in `assert_expr'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/parser.rb:49:in `parse'
-org/jruby/RubyKernel.java:2092:in `send'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:1005:in `sass_script'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:865:in `value!'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:842:in `declaration'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:565:in `declaration_or_ruleset'
-org/jruby/RubyProc.java:268:in `call'
-org/jruby/RubyProc.java:228:in `call'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:1104:in `rethrow'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:575:in `declaration_or_ruleset'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:537:in `block_child'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:529:in `block_contents'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:518:in `block'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:512:in `ruleset'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:536:in `block_child'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:529:in `block_contents'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:70:in `stylesheet'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:27:in `parse'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:342:in `_to_tree'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:272:in `to_tree'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:222:in `visit_import'
-org/jruby/RubyKernel.java:2096:in `send'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2336:in `collect'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `visit_children'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
-org/jruby/RubyKernel.java:2096:in `send'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-org/jruby/RubyKernel.java:2096:in `send'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-org/jruby/RubyArray.java:1603:in `each'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-org/jruby/RubyMethod.java:133:in `call'
-org/jruby/RubyProc.java:268:in `call'
-org/jruby/RubyProc.java:228:in `call'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `modified'
-org/jruby/RubyArray.java:1603:in `each'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
-org/jruby/RubyArray.java:1603:in `each'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
-org/jruby/RubyKernel.java:1419:in `loop'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Applications/Scout.app/Contents/Resources/bin/compass:12:in `(root)'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...ext-transform: \": expected expression (e.g. 1px, bold), was \"; // refer to PNG\"\A         on line 35 of /Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss\A         from line 4 of /Users/Daifuku/Documents/vmd142/quick/scss/style.scss"; }
+/* line 9, /Users/Daifuku/Documents/vmd142/quick/scss/_scaffolding.scss */
+a {
+  color: #333333;
+}
+/* line 13, /Users/Daifuku/Documents/vmd142/quick/scss/_scaffolding.scss */
+a:hover, a:focus {
+  color: #333333;
+  text-decoration: none;
+}
+
+/* line 4, /Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #333333;
+}
+
+/* line 12, /Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss */
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+/* line 16, /Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss */
+h1 {
+  font-size: 4em;
+}
+
+/* line 20, /Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss */
+h2 {
+  font-size: 2em;
+}
+
+/* line 24, /Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss */
+h3 {
+  font-size: 1.3em;
+}
+
+/* line 28, /Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss */
+h4 {
+  font-size: 1em;
+}
+
+/* line 33, /Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss */
+.home-text {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.15);
+  margin: 20px 0;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+/* line 43, /Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss */
+.home-h1 {
+  color: #33ccff;
+  font-size: 4.5em;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 51, /Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss */
+.home-h1 > span {
+  color: white;
+}
+
+/* line 55, /Users/Daifuku/Documents/vmd142/quick/scss/_typography.scss */
+.lead {
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+/* line 1, /Users/Daifuku/Documents/vmd142/quick/scss/_navbar.scss */
+.navbar-default {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 7, /Users/Daifuku/Documents/vmd142/quick/scss/_navbar.scss */
+.navbar-default .navbar-brand {
+  font-weight: 700;
+  color: #333333;
+  font-size: 1.5em;
+}
+
+/* line 13, /Users/Daifuku/Documents/vmd142/quick/scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #333333;
+}
+/* line 16, /Users/Daifuku/Documents/vmd142/quick/scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #33ccff;
+}
+
+/* line 1, /Users/Daifuku/Documents/vmd142/quick/scss/_buttons.scss */
+.btn-theme, .btn-dark, .btn-cta, .btn-cta-o {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  font-weight: 200;
+  text-transform: uppercase;
+  border-radius: 0;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+/* line 11, /Users/Daifuku/Documents/vmd142/quick/scss/_buttons.scss */
+.btn-dark {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+  color: #666666;
+}
+/* line 18, /Users/Daifuku/Documents/vmd142/quick/scss/_buttons.scss */
+.btn-dark:hover, .btn-dark:focus {
+  background: #000;
+  color: white;
+}
+
+/* line 24, /Users/Daifuku/Documents/vmd142/quick/scss/_buttons.scss */
+.btn-cta {
+  background-color: #33ccff;
+  color: white;
+}
+/* line 30, /Users/Daifuku/Documents/vmd142/quick/scss/_buttons.scss */
+.btn-cta:hover, .btn-cta:focus {
+  background-color: deepskyblue;
+  color: white;
+}
+
+/* line 36, /Users/Daifuku/Documents/vmd142/quick/scss/_buttons.scss */
+.btn-cta-o {
+  color: white;
+  border: 1px solid white;
+}
+/* line 42, /Users/Daifuku/Documents/vmd142/quick/scss/_buttons.scss */
+.btn-cta-o:hover, .btn-cta-o:focus {
+  background-color: white;
+  color: #333333;
+}
+
+/* line 1, /Users/Daifuku/Documents/vmd142/quick/scss/_forms.scss */
+.form-control {
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+
+/* line 6, /Users/Daifuku/Documents/vmd142/quick/scss/_forms.scss */
+label {
+  font-weight: 300;
+}
+
+/* line 1, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+#home {
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+/* line 6, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+#cta-1 {
+  background-color: white;
+  padding: 40px 0;
+}
+
+/* line 11, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+#testimonials {
+  background-color: #333333;
+}
+
+/* line 15, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+#cta-2 {
+  background-color: #33ccff;
+  padding: 40px 0;
+}
+
+/* line 20, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+#services {
+  background-color: #333333;
+}
+
+/* line 25, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+#cta-3 {
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+/* line 30, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+#footer {
+  background-color: #333333;
+}
+
+/* line 34, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+/* line 39, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.section-heading {
+  margin-bottom: 40px;
+}
+
+/* line 45, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.color-reverse,
+.color-reverse h2,
+.color-reverse .icon {
+  color: white;
+}
+
+/* line 50, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.color-reverse .icon:before,
+.color-reverse .icon:after {
+  border-bottom-color: white;
+}
+
+/* line 54, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.icon {
+  display: inline-block;
+  font-size: 1.3em;
+  line-height: 1.42857;
+  width: 130px;
+  margin: 0 auto;
+  position: relative;
+  color: #33ccff;
+}
+
+/* line 65, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.icon:before,
+.icon:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #33ccff;
+  position: absolute;
+  top: 10px;
+  width: 50px;
+}
+
+/* line 74, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.icon:before {
+  left: 0;
+}
+
+/* line 78, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.icon:after {
+  right: 0;
+}
+
+/* line 82, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.icon-bg {
+  color: white;
+}
+
+/* line 87, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.icon-bg:before,
+.icon-bg:after {
+  border-bottom-color: white;
+}
+
+/* line 91, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.about-col .fa {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  color: #666666;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/* line 100, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.services-col {
+  color: #33ccff;
+}
+
+/* line 104, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.services-col h3 {
+  color: #33ccff;
+  margin-top: 0;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 1.75em;
+}
+
+/* line 112, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.services-col p {
+  color: #666666;
+  letter-spacing: 1px;
+  font-weight: 200;
+  line-height: 2;
+}
+
+/* line 119, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.services-col .fa {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: white;
+  background-color: #33ccff;
+  border-radius: 35px;
+  margin-bottom: 10px;
+}
+
+/* line 130, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.contact-hours .fa {
+  color: #33ccff;
+}
+
+/* line 134, /Users/Daifuku/Documents/vmd142/quick/scss/_others.scss */
+.social-channels .fa {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #666666;
+  background-color: white;
+  margin-bottom: 10px;
+}
