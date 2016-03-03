@@ -8,6 +8,14 @@
     padding: 15px 30px;
     @include prefix(transition, all 200ms ease-in, webkit moz)}
 
+.btn-blog {
+    @extend .btn-theme;
+    background: $gray-dark;
+    color: $white;
+    padding: 2px;
+    font-weight: 200;
+}
+
 .btn-dark {
     @extend .btn-theme;
     border: 1px solid rgba(255,255,255,0.1);
