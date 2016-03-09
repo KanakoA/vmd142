@@ -6,7 +6,8 @@
     border-radius: 0;
     letter-spacing: 1px;
     padding: 15px 30px;
-    @include prefix(transition, all 200ms ease-in, webkit moz)}
+    @include prefix(transition, all 200ms ease-in, webkit moz)
+        }
 
 .btn-blog {
     @extend .btn-theme;

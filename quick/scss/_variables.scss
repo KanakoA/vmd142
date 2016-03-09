@@ -1,11 +1,11 @@
 // Colors
 $white: #fff;
 $gray-darker: #333333; // footer background
-$gray-dark: #333333; // header text
-$gray: #666666; // blog date text
+$gray-dark: #666666; // header text
+$gray: #888888; // blog date text
 $gray-light:#d3d3d3; // footer text
-$gray-lighter: #ffffff; // icon background (about section)
-$blue: #33ccff; // blue button
+$gray-lighter: #f7f7f7; // icon background (about section)
+$blue: #2dd8ff; // blue button
 $body-bg: $white; // background color for <body>
 $text-color: $gray-dark; // global text color for <body>
 $link-color: $gray-dark; // global textual link color
@@ -27,7 +27,7 @@ $headings-color: $gray-dark;
 
 // Buttons
 $btn-font-family: 'Montserrat', sans-serif;
-$btn-font-size:.8em; // .8x base
+$btn-font-size: 0.8em; // .8x base
 $btn-font-weight: 200; //lighter than default
 
 // Navbar
