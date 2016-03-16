@@ -220,12 +220,13 @@ label {
 }
 
 /* line 24, ../scss/_others.scss */
-#facts {
+#cta-3 {
   background-color: #666666;
+  padding: 40px 0;
 }
 
 /* line 29, ../scss/_others.scss */
-#cta-3 {
+#facts {
   background-color: #666666;
   padding: 40px 0;
 }
@@ -235,32 +236,33 @@ label {
   background-color: #666666;
 }
 
-/* line 38, ../scss/_others.scss */
-.section-padding {
-  padding-top: 60px;
-  padding-bottom: 50px;
-}
-
-/* line 43, ../scss/_others.scss */
-.section-heading {
-  margin-bottom: 40px;
-}
-
-/* line 50, ../scss/_others.scss */
+/* line 42, ../scss/_others.scss */
 .color-reverse,
 .color-reverse h2,
 .color-reverse h3,
-.color-reverse .icon {
+.color-reverse .icon
+.color-reverse ul > li > a {
   color: white;
 }
 
-/* line 55, ../scss/_others.scss */
+/* line 47, ../scss/_others.scss */
 .color-reverse .icon:before,
 .color-reverse .icon:after {
   border-bottom-color: white;
 }
 
-/* line 59, ../scss/_others.scss */
+/* line 53, ../scss/_others.scss */
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+/* line 58, ../scss/_others.scss */
+.section-heading {
+  margin-bottom: 40px;
+}
+
+/* line 63, ../scss/_others.scss */
 .icon {
   display: inline-block;
   font-size: 1.3em;
@@ -271,7 +273,7 @@ label {
   color: #2dd8ff;
 }
 
-/* line 70, ../scss/_others.scss */
+/* line 74, ../scss/_others.scss */
 .icon:before,
 .icon:after {
   display: inline-block;
@@ -282,28 +284,28 @@ label {
   width: 50px;
 }
 
-/* line 79, ../scss/_others.scss */
+/* line 83, ../scss/_others.scss */
 .icon:before {
   left: 0;
 }
 
-/* line 83, ../scss/_others.scss */
+/* line 87, ../scss/_others.scss */
 .icon:after {
   right: 0;
 }
 
-/* line 87, ../scss/_others.scss */
+/* line 91, ../scss/_others.scss */
 .icon-bg {
   color: white;
 }
 
-/* line 92, ../scss/_others.scss */
+/* line 96, ../scss/_others.scss */
 .icon-bg:before,
 .icon-bg:after {
   border-bottom-color: white;
 }
 
-/* line 96, ../scss/_others.scss */
+/* line 100, ../scss/_others.scss */
 .about-col .fa {
   width: 90px;
   height: 90px;
@@ -313,19 +315,12 @@ label {
   background-color: #f7f7f7;
 }
 
-/* line 105, ../scss/_others.scss */
+/* line 109, ../scss/_others.scss */
 .services-col {
   color: #2dd8ff;
-  text-align: center;
 }
 
-@media (min-width: 768px) {
-  /* line 111, ../scss/_others.scss */
-  .services-col {
-    text-align: left;
-  }
-}
-/* line 116, ../scss/_others.scss */
+/* line 113, ../scss/_others.scss */
 .services-col h3 {
   color: #2dd8ff;
   margin-top: 0;
@@ -334,7 +329,7 @@ label {
   font-size: 1.75em;
 }
 
-/* line 124, ../scss/_others.scss */
+/* line 121, ../scss/_others.scss */
 .services-col p {
   color: #888888;
   letter-spacing: 1px;
@@ -342,7 +337,7 @@ label {
   line-height: 2;
 }
 
-/* line 131, ../scss/_others.scss */
+/* line 128, ../scss/_others.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -354,12 +349,12 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 142, ../scss/_others.scss */
+/* line 139, ../scss/_others.scss */
 .contact-hours .fa {
   color: #2dd8ff;
 }
 
-/* line 146, ../scss/_others.scss */
+/* line 143, ../scss/_others.scss */
 .social-channels .fa {
   width: 40px;
   height: 40px;
@@ -370,25 +365,25 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 156, ../scss/_others.scss */
+/* line 153, ../scss/_others.scss */
 .author {
   color: #2dd8ff;
   font-size: 1.1em;
 }
 
-/* line 161, ../scss/_others.scss */
+/* line 158, ../scss/_others.scss */
 .item-img-wrap {
   position: relative;
   text-align: center;
   overflow: hidden;
 }
 
-/* line 168, ../scss/_others.scss */
+/* line 164, ../scss/_others.scss */
 .item-img-wrap img {
   transition: all 200ms linear;
 }
 
-/* line 172, ../scss/_others.scss */
+/* line 167, ../scss/_others.scss */
 .item-img-overlay {
   position: absolute;
   width: 100%;
@@ -397,7 +392,7 @@ label {
   top: 0;
 }
 
-/* line 180, ../scss/_others.scss */
+/* line 174, ../scss/_others.scss */
 .item-img-overlay span {
   width: 100%;
   height: 100%;
@@ -409,30 +404,124 @@ label {
   transition: opacity 250ms linear;
 }
 
-/* line 191, ../scss/_others.scss */
+/* line 185, ../scss/_others.scss */
 .item-img-wrap:hover .item-img-overlay span {
   opacity: 1;
 }
 
-/* line 195, ../scss/_others.scss */
+/* line 188, ../scss/_others.scss */
 .item-img-wrap:hover img {
   transform: scale(1.1);
 }
 
-/* line 204, ../scss/_others.scss */
+/* line 197, ../scss/_others.scss */
 .about-col,
 .team-col,
 .services-col,
 .portfolio-col,
 .facts-col,
-.blog-co {
+.blog-col {
   margin-bottom: 40px;
 }
 
-/* line 208, ../scss/_others.scss */
+/* line 201, ../scss/_others.scss */
 .blog-col span {
   color: #888888;
   font-size: 0.9em;
   display: inline-block;
   margin-bottom: 20px;
+}
+
+/* line 208, ../scss/_others.scss */
+.services-col {
+  color: #2dd8ff;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  /* line 214, ../scss/_others.scss */
+  .services-col {
+    text-align: left;
+  }
+}
+/* line 219, ../scss/_others.scss */
+.scrollToTop {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999999;
+  display: none;
+  background: #2dd8ff;
+  opacity: 0.5;
+  -webkit-transform: all 0.3s;
+  -moz-transform: all 0.3s;
+  transform: all 0.3s;
+}
+
+/* line 237, ../scss/_others.scss */
+.scrollToTop:hover {
+  text-decoration: none;
+  opacity: 1;
+  color: white;
+}
+
+/* line 243, ../scss/_others.scss */
+.parallax {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* line 251, ../scss/_others.scss */
+.parallax-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 261, ../scss/_others.scss */
+#home {
+  background-image: url(../img/showcase-1.jpg);
+  padding: 160px 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 267, ../scss/_others.scss */
+#testimonials {
+  background: url(../img/showcase-3.jpg);
+  padding: 80px 0;
+}
+
+/* line 271, ../scss/_others.scss */
+#services {
+  background: url(../img/showcase-2.jpg);
+  padding: 80px 0;
+}
+
+/* line 275, ../scss/_others.scss */
+#facts {
+  background: url(../img/showcase-5.jpg);
+  padding: 80px 0;
+}
+
+/* line 280, ../scss/_others.scss */
+.main-flex-slider {
+  overflow: hidden;
 }
