@@ -63,10 +63,10 @@ $(window).load(function() {
 $(document).ready(function() {
     $("#testi-carousel").owlCarousel({
         items: 1,
-		loop:true,
-		autoplay:true,
-		autoplayTimeout:5000,
-		autoplayHoverPause:true
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true
     });
 });
 
@@ -76,4 +76,11 @@ jQuery(document).ready(function($) {
         delay: 100,
         time: 800
     });
+});
+
+// magnific popup
+jQuery(document).ready(function($) {
+	$('.show-image').magnificPopup({
+		type: 'image'
+	});
 });
